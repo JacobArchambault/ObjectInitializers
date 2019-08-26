@@ -23,7 +23,7 @@ namespace ObjectInitializers
             anotherPoint.DisplayStats();
 
             // Or make a Point using object init syntax.
-            Point finalPoint = new Point A{ X = 30, Y = 30};
+            Point finalPoint = new Point { X = 30, Y = 30};
             finalPoint.DisplayStats();
             Console.ReadLine();
         }
