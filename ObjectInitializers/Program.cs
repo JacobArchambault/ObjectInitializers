@@ -25,6 +25,11 @@ namespace ObjectInitializers
             // Or make a Point using object init syntax.
             Point finalPoint = new Point { X = 30, Y = 30};
             finalPoint.DisplayStats();
+
+            // Calling a more interesting custom constructor with init syntax.
+            Point goldPoint = new Point(PointColor.Gold) { X = 90, Y = 20 };
+            goldPoint.DisplayStats();
+
             Console.ReadLine();
         }
     }
