@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ObjectInitializers
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("***** Fun with Object Init Syntax *****\n");
 
@@ -31,7 +27,7 @@ namespace ObjectInitializers
             goldPoint.DisplayStats();
 
             // Create and initialize a Rectangle
-            Rectangle myRect = new Rectangle
+            _ = new Rectangle
             {
                 TopLeft = new Point { X = 10, Y = 10 },
                 BottomRight = new Point { X = 200, Y = 200 }
